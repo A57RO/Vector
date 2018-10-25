@@ -1,10 +1,6 @@
 public class VectorND extends BaseVector {
-    public VectorND(double[] coordinates) {
+    public VectorND(double... coordinates) {
         super(coordinates);
-    }
-
-    public VectorND(int dimension) {
-        super(dimension);
     }
 
     public VectorND add(VectorND secondVector)
