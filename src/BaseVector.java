@@ -41,7 +41,6 @@ abstract class BaseVector {
         if (this.getClass() != o.getClass())
             throw new IllegalArgumentException();
 
-
         if (this == o)
             return true;
 
